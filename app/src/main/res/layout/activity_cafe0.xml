@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD"
+    android:id="@+id/drawer_c"
+    tools:context=".GpsActivity"
+    android:layout_gravity="left"
+    android:orientation="horizontal">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:maxHeight="45dp"
+        android:maxWidth="45dp"
+        android:background="#FDFDFD"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/back_icon"
+        android:id="@+id/back_btn"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="메가커피"
+        android:textSize="25dp"
+        android:padding="5dp"
+        android:layout_toRightOf="@+id/back_btn"
+        android:gravity="center"
+        android:background="#FDFDFD"
+        android:textColor="#000000"
+        android:id="@+id/menu_text"
+
+        />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:maxHeight="45dp"
+        android:maxWidth="45dp"
+        android:background="#FDFDFD"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/gps_icon"
+        android:layout_below="@+id/back_btn"
+        android:layout_marginTop="34dp"
+        android:id="@+id/gps_img"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="경북 경산시 진량읍 대구대로244 \n 내리리 100 - 7 (우) 38454"
+        android:textSize="13dp"
+        android:padding="5dp"
+        android:layout_toRightOf="@+id/gps_img"
+        android:layout_below="@+id/back_btn"
+        android:layout_marginTop="34dp"
+        android:gravity="center"
+        android:background="#FDFDFD"
+        android:textColor="#000000"
+        android:id="@+id/gps_text"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:maxHeight="45dp"
+        android:maxWidth="45dp"
+        android:background="#FDFDFD"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/phone_icon"
+        android:layout_below="@+id/gps_img"
+        android:layout_marginTop="34dp"
+        android:id="@+id/phone_img"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="053-857-9032"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:layout_toRightOf="@+id/gps_img"
+        android:layout_below="@+id/gps_text"
+        android:layout_marginTop="34dp"
+        android:gravity="center"
+        android:background="#FDFDFD"
+        android:textColor="#000000"
+        android:id="@+id/phone_text"
+        />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:maxHeight="45dp"
+        android:maxWidth="45dp"
+        android:background="#FDFDFD"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/watch_icon"
+        android:layout_below="@+id/phone_img"
+        android:layout_marginTop="34dp"
+        android:id="@+id/watch_img"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="매일 08:00 ~ 22:30"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:layout_toRightOf="@+id/gps_img"
+        android:layout_below="@+id/phone_text"
+        android:layout_marginTop="34dp"
+        android:gravity="center"
+        android:background="#FDFDFD"
+        android:textColor="#000000"
+        android:id="@+id/watch_text"
+        />
+
+
+
+
+
+</RelativeLayout>

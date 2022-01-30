@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD"
+    android:id="@+id/drawer"
+    tools:context=".GpsActivity"
+    android:layout_gravity="right"
+    android:orientation="horizontal">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:maxHeight="45dp"
+        android:maxWidth="45dp"
+        android:background="#9ABDFF"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/menu_icon"
+        android:id="@+id/menubtn_close"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="메뉴"
+        android:textSize="25dp"
+        android:padding="5dp"
+        android:layout_toRightOf="@+id/menubtn_close"
+        android:gravity="center"
+        android:background="#9ABDFF"
+        android:textColor="#000000"
+        android:id="@+id/menu_text"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menu_text"
+        android:id="@+id/select_1"
+        android:background="@drawable/btn_click"
+        android:text="음식점"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_1"
+        android:id="@+id/select_2"
+        android:background="@drawable/btn_click"
+        android:text="카페"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_2"
+        android:id="@+id/select_3"
+        android:background="@drawable/btn_click"
+        android:text="주점(술집)"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_3"
+        android:id="@+id/select_4"
+        android:background="@drawable/btn_click"
+        android:text="bar"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_4"
+        android:id="@+id/select_5"
+        android:background="@drawable/btn_click"
+        android:text="위치 표시 제거"
+        android:textColor="#000000"
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>
